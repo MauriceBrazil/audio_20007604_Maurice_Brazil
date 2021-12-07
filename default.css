@@ -1,0 +1,105 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #808080 url(images/img01.gif) repeat-x;
+	font: normal small Arial, Helvetica, sans-serif;
+	line-height: 1.8em;
+	color: #838B91;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	color: #808080;
+}
+
+#wrapper {
+	background: #FFFFFF url(images/img04.gif) repeat-x left bottom;
+}
+
+#menu {
+	width: 750px;
+	height: 60px;
+	margin: 0 auto;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: block;
+	float: left;
+	width: 148px;
+	height: 60px;
+	padding: 0 0 0 2px;
+	background: url(images/img02.gif) no-repeat;
+}
+
+#menu a {
+	display: block;
+	width: 108px;
+	height: 36px;
+	padding: 20px 20px 0 20px;
+	background: none;
+	letter-spacing: -1px;
+	font: normal 1.6em Georgia, "Times New Roman", Times, serif;
+	color: #E1E9E2;
+}
+
+#menu a:hover {
+	border-bottom: 4px solid #5A7C50;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#menu .active a {
+	background: #E1E9E2;
+	border-bottom: 4px solid #E1E9E2;
+	text-decoration: none;
+	color: #808080;
+}
+
+#header {
+	width: 754px;
+	height: 247px;
+	margin: 0 auto;
+	padding: 13px 0 0 0;
+}
+
+#header h1 {
+	float: left;
+	width: 110px;
+	height: 110px;
+	padding: 10px 100px 0 20px;
+	
+	line-height: 32px;
+	font-size: 30px;
+}
+
+#header h2 {
+	float: right;
+	width: 494px;
+	height: 30px;
+	padding: 180px 20px 0 0;
+	background: url(images/wit-logo.png) no-repeat;
+	text-transform: lowercase;
+	text-align: right;
+	letter-spacing: -1px;
+	font-size: 22px;
+	color: #000000;
+}
+
+
+#content {
+	width: 750px;
+	margin: 0 auto;
+}
+
+
+
